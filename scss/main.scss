@@ -1480,6 +1480,24 @@ nav ul li {
             }
         }
     }
+
+    %work_container_block-1{
+        position: relative;
+        justify-content: center;
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .work_container-block{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: relative;
+
+        .work_container_block-2{
+            margin: 20px auto;
+        }
+    }
    
 }
 

@@ -987,6 +987,18 @@ nav ul li {
         margin: -40px 0 40px 0;
         width: 100%;
         position: relative;
-        background: #ffffff; } }
+        background: #ffffff; }
+  .work_container .work_container-block .work_container_block-r, .work_container .work_container-block .work_container_block-l {
+    position: relative;
+    justify-content: center;
+    width: 60%;
+    margin: 0 auto; }
+  .work_container-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative; }
+    .work_container-block .work_container_block-2 {
+      margin: 20px auto; } }
 
 /*# sourceMappingURL=main.css.map */
