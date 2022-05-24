@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Alexis</title>
     <link rel="stylesheet" href="css/main.css"> 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 </head>
 
     <header>
         <nav class="top-menu">
-            <a href="#home" class="logo">A<span class="logo_color">lexis</span></a>
+            <a class="logo">A<span class="logo_color">lexis</span></a>
                 <div href="#" class="open-close-menu">
                     <div class="strip"></div>
                     <div class="strip"></div>
@@ -183,7 +183,7 @@
         </div>
     </section>
     <section class="stats">
-        <img class="stats-img" src="images/stats.png">
+        <img class="stats-img" src="images/stats.png" alt="stats">
         <div class="stats_container">
             <div class="stats_container-block">
                 <i class="fas fa-chart-line stats_icons_color-1"></i>
@@ -225,7 +225,7 @@
         <div class="work_container">
             <div class="work_container-block">
                 <div class="work_container_block-2">
-                    <img class="work_img" src="images/work_img-1.png">
+                    <img class="work_img" src="images/work_img-1.png" alt="workimg1">
                 </div>
                 <div class="work_container_block-l">
                     <p class="work_txt-n">01</p>
@@ -239,7 +239,7 @@
             </div>
             <div class="work_container-block">
                 <div class="work_container_block-2">
-                    <img class="work_img" src="images/work_img-2.png">
+                    <img class="work_img" src="images/work_img-2.png" alt="workimg2">
                 </div>
                 <div class="work_container_block-r">
                     <p class="work_txt-n">02</p>
@@ -253,7 +253,7 @@
             </div>
             <div class="work_container-block">
                 <div class="work_container_block-2">
-                    <img class="work_img" src="images/work_img-3.png">
+                    <img class="work_img" src="images/work_img-3.png" alt="workimg3">
                 </div>
                 <div class="work_container_block-l">
                     <p class="work_txt-n">01</p>
@@ -267,7 +267,7 @@
             </div>
             <div class="work_container-block">
                 <div class="work_container_block-2">
-                    <img class="work_img" src="images/work_img-4.png">
+                    <img class="work_img" src="images/work_img-4.png" alt="workimg4">
                 </div>
                 <div class="work_container_block-r">
                     <p class="work_txt-n">02</p>
@@ -343,7 +343,7 @@
         <p class="section_txt-min">We understand your requirement and provide quality works.</p>  
         <div class="testimonials_container">
             <div class="testimonials_container_block-left">
-                    <img class="img-test" src="images/test_img.png">
+                    <img class="img-test" src="images/test_img.png" alt="testimg">
                 </div>
             <div class="testimonials_container_block-right">
                 <p class="testimonials_container_block-txt">Deployment ownership non-disclosure agreement vesting period crowdfunding 
@@ -413,7 +413,7 @@
                         <p class="img_txt-max">Damian Schreiber</p>
                         <p class="img_txt-min">December 10, 2015</p>
                     </div>
-                    <img class="blog_img-block" src="images/blog_img.png">
+                    <img class="blog_img-block" src="images/blog_img.png" alt="blogimg">
                 </div>
                 <div class="blog_img-txt">
                     <p class="blog_img-txt-max">Facebook’s CNN livestream will test its place <br>in the second screen era</p>
@@ -464,10 +464,10 @@
         <p class="section_txt-min">We understand your requirement and provide quality works.</p>  
         <div class="contact_form">
             <input class="contact_form-block" type="text" id="fname" name="name" placeholder="Your Name..">
-            <input class="contact_form-block" type="email" id="fname" name="email" placeholder="Your Email..">
-            <input class="contact_form-block" type="text" id="fname" name="firstname" placeholder="Subject..">
-            <input class="contact_form-block" type="text" id="fname" name="firstname" placeholder="Project Budget..">
-            <input class="contact_form-block-z" type="text" id="fname" name="firstname" placeholder="Your Message..">
+            <input class="contact_form-block" type="email" id="emaill" name="email" placeholder="Your Email..">
+            <input class="contact_form-block" type="text" id="text-c" name="firstname" placeholder="Subject..">
+            <input class="contact_form-block" type="text" id="text-c2" name="firstname" placeholder="Project Budget..">
+            <input class="contact_form-block-z" type="text" id="text-c3" name="firstname" placeholder="Your Message..">
             <button class="contact_button">SEND MESSAGE</button>
         </div>
         <div class="footer_form">
@@ -495,7 +495,7 @@
     </section>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script type="text/javascript">
+<script>
 $(".fancyNav li").click(function () {
 
 $(".fancyNav li").removeClass("active");
@@ -503,7 +503,7 @@ $(this).addClass("active");
 });
 </script>
 
-<script type="text/javascript">
+<script>
     $(document).ready(function() {
         if (  $(window).width() < 850) {
             $('.open-close-menu').click(function() {

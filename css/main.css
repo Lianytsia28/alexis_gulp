@@ -184,7 +184,7 @@ nav ul li {
 
 .services .section_txt-max, .portfolio .section_txt-max, .team .section_txt-max, .work .section_txt-max, .pricing .section_txt-max, .testimonials .section_txt-max, .select .section_txt-max, .blog .section_txt-max, .contact .section_txt-max {
   font-size: 50px;
-  line-height: 0px;
+  line-height: 1;
   font-weight: 600; }
 
 .services .section_txt-min, .portfolio .section_txt-min, .team .section_txt-min, .work .section_txt-min, .pricing .section_txt-min, .testimonials .section_txt-min, .select .section_txt-min, .blog .section_txt-min, .contact .section_txt-min {
